@@ -21,6 +21,7 @@ namespace ECS.Unit.Test
         }
 
         [TestCase(2, 5, 7)]
+        [TestCase(4, 0, 4)]
         public void Add_AddNumber1AndNumber2(int a, int b, int c)
         {
             Assert.That(_uut.Add(a, b), Is.EqualTo(c));
